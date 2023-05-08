@@ -1,2 +1,7 @@
-
+web-ext-artifacts
 main.zip
+firefox_main.zip
+chrome_main.zip
+node_modules
+package.json
+package-lock.json
