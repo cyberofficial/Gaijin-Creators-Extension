@@ -1,7 +1,7 @@
     const creators = [
         {
             "name": "== Suggest a Creator ==",
-            "url": ""
+            "url": "https://github.com/cyberofficial/Gaijin-Creators-Extension/issues"
         },
         {
             "name": "---- Choose a Creator ----",
