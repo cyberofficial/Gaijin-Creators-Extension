@@ -55,4 +55,4 @@ Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firef
 
 ## License
 
-This project is licensed under the Custom Open Source License (COSL) v1.0. For more information, see the [LICENSE](LICENSE) file.
+This project is licensed under the Custom Open Source License (COSL) v1.0. For more information, see the [LICENSE](LICENSE.md) file.
