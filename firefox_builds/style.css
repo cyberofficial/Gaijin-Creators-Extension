@@ -1,0 +1,71 @@
+/* Style the dropdown button */
+.dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+}
+/* Style the dropdown container (hidden by default) */
+.dropdown-container {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+   /* Increase the z-index value */
+    border-radius: 4px;
+    max-height: 300px;
+   /* Adjust the height based on the number of items and their size */
+    overflow-y: auto;
+}
+/* Style the dropdown links */
+.dropdown-container a {
+    display: block;
+    text-decoration: none;
+    padding: 6px 8px;
+    color: #2f2424;
+    border-radius: 4px;
+}
+/* Change color on hover */
+.dropdown-container a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+.dropdown-btn {
+    color: #F6ECD4;
+   /* Soft Egg white color */
+    background-image: url('https://static.thenounproject.com/png/1266221-200.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    animation: glow 1s infinite alternate;
+   /* Adjust the padding to accommodate the icon */
+}
+.nav__item {
+    z-index: 999; /* Add a z-index value */
+}
+.nav__item span {
+    color: #F6ECD4;
+   /* Soft Egg white color */
+    font-size: 16px;
+}
+.reminder {
+    font-weight: bold;
+    color: red;
+    margin-left: 5px;
+  }
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(246, 236, 212, 0);
+    }
+    to {
+      text-shadow: 0 0 10px rgb(224, 27, 27);
+    }
+  }
+  .dropdown-btn.glowing {
+    animation: glow 1s infinite alternate;
+  }

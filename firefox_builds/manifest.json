@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Gaijin Content Creators Dropdown",
+  "version": "1.0.1",
+  "description": "Adds a Content Creators dropdown to the Gaijin Store page",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://store.gaijin.net/*"],
+      "js": ["creators.js", "content_script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{28dabef6-97de-4d22-bd27-f856d8f13db4}",
+      "strict_min_version": "42.0"
+    }
+  }
+}
