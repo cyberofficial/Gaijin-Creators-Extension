@@ -26,7 +26,7 @@ Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firef
 1. Download the extension files from the repository.
 2. Open the Firefox browser, and navigate to `about:debugging`.
 3. Click "This Firefox" and then "Load Temporary Add-on".
-4. Select the `manifest.json` file within the folder containing the extension files.
+4. Select the `manifest.json` file within the folder containing the extension files inside the `firefox_builds` foldeer.
 
 ### Microsoft Edge
 
