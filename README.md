@@ -6,7 +6,6 @@ Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firef
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gpogdmpopibagcdlgbomfbbnjjfmmmnf.svg?label=Chrome%20Web%20Store&style=for-the-badge)](https://chrome.google.com/webstore/detail/gaijin-content-creators-d/gpogdmpopibagcdlgbomfbbnjjfmmmnf?hl=en&authuser=0) [![Firefox Add-ons](https://img.shields.io/amo/v/gaijin-cc-store-button.svg?label=Firefox%20Add-ons&style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/gaijin-cc-store-button/)
 
-
 ## Features
 
 - Adds a "Support a Content Creator" button to the Gaijin Store page.
@@ -19,14 +18,19 @@ Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firef
 
 ### Google Chrome
 
-1. Download the extension files from the repository or [install from the Chrome Web Store](https://chrome.google.com/webstore/detail/gaijin-content-creators-d/gpogdmpopibagcdlgbomfbbnjjfmmmnf?hl=en&authuser=0).
+1. [Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/gaijin-content-creators-d/gpogdmpopibagcdlgbomfbbnjjfmmmnf?hl=en&authuser=0) or load the extension locally:
+    1. Download the extension files from the repository.
+    2. Open the Chrome browser, and navigate to `chrome://extensions`.
+    3. Enable "Developer mode" by toggling the switch in the top right corner.
+    4. Click "Load unpacked" and select the folder containing the extension files.
 
 ### Firefox
 
-1. Download the extension files from the repository.
-2. Open the Firefox browser, and navigate to `about:debugging`.
-3. Click "This Firefox" and then "Load Temporary Add-on".
-4. Select the `manifest.json` file within the folder containing the extension files inside the `firefox_builds` foldeer.
+1. [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/gaijin-cc-store-button/) or load the extension locally:
+    1. Download the extension files from the repository.
+    2. Open the Firefox browser, and navigate to `about:debugging`.
+    3. Click "This Firefox" and then "Load Temporary Add-on".
+    4. Select the `manifest.json` file within the folder containing the extension files inside the `firefox_builds` folder.
 
 ### Microsoft Edge
 
