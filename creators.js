@@ -57,131 +57,132 @@
         {
             "name": "Alconafter",
             "url": "https://store.gaijin.net/catalog.php?partner=Alconafter&partner_val=l4hlnydz",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/w8biEAX.png"
         },
         {
             "name": "Alatriste",
             "url": "https://store.gaijin.net/catalog.php?partner=AL300&partner_val=w1maj7aa",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/GATBIGC.png"
         },
         {
             "name": "PoleznyiBes",
             "url": "https://store.gaijin.net/catalog.php?partner=PoleznyiBes&partner_val=q8uwq953",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/OqUrmfT.png"
         },
         {
             "name": "Dita",
             "url": "https://store.gaijin.net/catalog.php?partner=Dita&partner_val=u2jkn1a4",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/9ijUVkT.png"
         },
         {
             "name": "Iron Armenian",
             "url": "https://store.gaijin.net/catalog.php?partner=IronArmenian&partner_val=u5g16ff2",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/vLZ5NhN.png"
         },
         {
             "name": "Thorneyed",
             "url": "https://store.gaijin.net/catalog.php?partner=Thorneyed&partner_val=b2ncmaw6",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/IIwBg9B.png"
         },
         {
             "name": "Wartube",
             "url": "https://store.gaijin.net/catalog.php?partner=Ezida&partner_val=a6dyjc1z",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/gBRWqH8.png"
         },
         {
             "name": "Alan LuckeR",
             "url": "https://store.gaijin.net/catalog.php?partner=AlanLuckeR&partner_val=djs5hueq",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/SoNsOsG.png"
         },
         {
             "name": "PrivatePenguin",
             "url": "https://store.gaijin.net/catalog.php?partner=PrivatePinguin&partner_val=qbgtfgbb",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/hd6Ra5Y.png"
         },
         {
             "name": "D31m0s",
             "url": "https://store.gaijin.net/catalog.php?partner=D31m0s&partner_val=bhmyhjes",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/7XXGJMD.png"
         },
         {
             "name": "DOLLARplays",
             "url": "https://store.gaijin.net/catalog.php?partner=DOLLARplays&partner_val=jft18lc5",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/2Abe52y.png"
         },
         {
             "name": "HowToPlay1337",
             "url": "https://store.gaijin.net/catalog.php?partner=HowToPlay1337&partner_val=au8cyjmt",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/95wgobz.png"
         },
         {
             "name": "MakcuVolk",
             "url": "https://store.gaijin.net/catalog.php?partner=MakcuVolk&partner_val=6azsyugr ",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/SC9svY4.png"
         },
         {
             "name": "kyMARik",
             "url": "https://store.gaijin.net/catalog.php?partner=kyMARik&partner_val=xy1fp865 ",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/vdm2vUi.png"
         },
         {
             "name": "Jaguara333",
             "url": "https://store.gaijin.net/catalog.php?partner=Jaguara333&partner_val=q59c7spr",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/yG419NH.png"
         },
         {
             "name": "JeanClodVanShot",
             "url": "https://store.gaijin.net/catalog.php?partner=JeanClodVanShot&partner_val=d154268p",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/cuIrMXR.png"
         },
         {
             "name": "JustinPlaysTV",
             "url": "https://store.gaijin.net/catalog.php?partner=JustinPlaysTV&partner_val=8xs6p63k",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/P2L0cRQ.png"
         },
         {
             "name": "Spit_flyer",
             "url": "https://store.gaijin.net/catalog.php?partner=Spit_flyer&partner_val=js5tlndd",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/3b1vE1F.png"
         },
         {
             "name": "TheEuropeanCanadian",
             "url": "https://store.gaijin.net/catalog.php?partner=TheEuropeanCanadian&partner_val=4wwn7fcr",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/3hgneAM.png"
         },
         {
             "name": "WingalingDragon",
             "url": "https://store.gaijin.net/catalog.php?partner=WingalingDragon&partner_val=pzf78jse",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/AtyYTcs.png"
         },
         {
             "name": "Ruski9000",
             "url": "https://store.gaijin.net/catalog.php?partner=Ruskii9000&partner_val=8h9d3kwl",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/ly8ujKl.png"
         },
         {
             "name": "GERBrowny",
             "url": "https://store.gaijin.net/catalog.php?partner=GerBrowny&partner_val=uzzpg7cj",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/nhWhBzr.png"
         },
         {
             "name": "CathFawr",
             "url": "https://store.gaijin.net/catalog.php?partner=Cathfawr&partner_val=f63blmfa",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/RXJXtwz.png"
         },
         {
             "name": "OddBawZ",
-            "url": "https://store.gaijin.net/catalog.php?partner=Oddbawz&partner_val=2bpa5qx4"
+            "url": "https://store.gaijin.net/catalog.php?partner=Oddbawz&partner_val=2bpa5qx4",
+            "img_source": "https://i.imgur.com/yFG7Gdg.png"
         },
         {
             "name": "Oxy",
             "url": "https://store.gaijin.net/catalog.php?partner=Oxy&partner_val=5qb9d31f",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/I9Ixq5D.png"
         },
         {
             "name": "SpaceCat",
             "url": "https://store.gaijin.net/catalog.php?partner=SpaceCat&partner_val=p17qn61p",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/y9ZCO72.png"
         },
         {
             "name": "Spookston",
