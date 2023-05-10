@@ -2,17 +2,22 @@
         {
             "name": "== Suggest a Creator ==",
             "url": "https://github.com/cyberofficial/Gaijin-Creators-Extension/issues",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/mhE8FGW.png"
         },
         {
             "name": "---- Choose a Creator ----",
             "url": "",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/y4z9Lpc.png"
         },
         {
             "name": "PhlyDaily",
             "url": "https://store.gaijin.net/catalog.php?partner=PhlyDaily&partner_val=wp39fzab",
             "img_source": "https://i.imgur.com/2rhN1Ht.png"
+        },
+        {
+            "name": "PhlyDaily",
+            "url": "https://store.gaijin.net/story.php?title=Phlydailys-Million-Celebration-Pack",
+            "img_source": "https://i.imgur.com/rGymDwG.png"
         },
         {
             "name": "Pandramodo",
@@ -187,111 +192,111 @@
         {
             "name": "Spookston",
             "url": "https://store.gaijin.net/catalog.php?partner=Spookston&partner_val=d3zfba73",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/cuLwIqX.png"
         },
         {
             "name": "Trenlass",
             "url": "https://store.gaijin.net/catalog.php?partner=Trenlass&partner_val=ctud7l7c",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/qO77IJH.png"
         },
         {
             "name": "Avarik",
             "url": "https://store.gaijin.net/catalog.php?partner=Avarik&partner_val=mpaknd2y",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/VJflkIr.png"
         },
         {
             "name": "VALIDUZz",
             "url": "https://store.gaijin.net/catalog.php?partner=Validuz&partner_val=9t9q9tsx",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/l3IAqHb.png"
         },
         {
             "name": "Freeman Project",
             "url": "https://store.gaijin.net/catalog.php?partner=FreemanProject&partner_val=8yhkf7y9",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/uK18su3.png"
         },
         {
             "name": "УКУС",
             "url": "https://store.gaijin.net/catalog.php?partner=YKYC&partner_val=w721bkd6",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/mYWynUn.png"
         },
         {
             "name": "Futcher_",
             "url": "https://store.gaijin.net/catalog.php?partner=Futcher_&partner_val=sqfkdnpn",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/J2Pt5nQ.png"
         },
         {
             "name": "Mootality",
             "url": "https://store.gaijin.net/catalog.php?partner=Mootality&partner_val=t5aehn9j",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/aQNDp19.png"
         },
         {
             "name": "Steiner734",
             "url": "https://store.gaijin.net/catalog.php?partner=Steiner734&partner_val=13t6bc8s",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/Wmuhthr.png"
         },
         {
             "name": "Ash",
             "url": "https://store.gaijin.net/catalog.php?partner=Ash&partner_val=njxnyxcg",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/vmU3I2E.png"
         },
         {
             "name": "Freige",
             "url": "https://store.gaijin.net/catalog.php?partner=Freige&partner_val=17yc2ydg",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/g9yjqmA.png"
         },
         {
             "name": "DriftyWingss",
             "url": "https://store.gaijin.net/catalog.php?partner=Driftywingss&partner_val=4gsrr8re",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/k5ReDgZ.png"
         },
         {
             "name": "Copsi",
             "url": "https://store.gaijin.net/catalog.php?partner=Copsi&partner_val=n4xnug42",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/5kBTwks.png"
         },
         {
             "name": "ZoltanSultan",
             "url": "https://store.gaijin.net/catalog.php?partner=ZoltanSultan&partner_val=sx4m1cmu",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/h4Fdgfo.png"
         },
         {
             "name": "GIB_07",
             "url": "https://store.gaijin.net/catalog.php?partner=GIB_07&partner_val=el12clbg ",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/wm5C2gI.png"
         },
         {
             "name": "MarkusHatDieGansGestohlen",
             "url": "https://store.gaijin.net/catalog.php?partner=MarkushatdieGansgestohlen&partner_val=egegmy9l",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/h9Zv1FJ.png"
         },
         {
             "name": "DEFYN",
             "url": "https://store.gaijin.net/catalog.php?partner=DEFYN&partner_val=c56e1lgp",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/TdgX3dS.png"
         },
         {
             "name": "Teamkrado",
             "url": "https://store.gaijin.net/catalog.php?partner=Teamkrado&partner_val=zrcu5138",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/5s9aYEE.png"
         },
         {
             "name": "Reib00n",
             "url": "https://store.gaijin.net/catalog.php?partner=reib00n&partner_val=fp6bjbxd",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/GgZzYcT.png"
         },
         {
             "name": "Cavenub",
             "url": "https://store.gaijin.net/catalog.php?partner=Cavenub&partner_val=f1ljzg8h",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/NlOehAb.png"
         },
         {
             "name": "Nordern",
             "url": "https://store.gaijin.net/catalog.php?partner=TheNordern&partner_val=xqdjqffk",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/6s0CUyE.png"
         },
         {
             "name": "Meumeu",
             "url": "https://store.gaijin.net/catalog.php?partner=Meumeu03&partner_val=w7cyuzdj",
-            "img_source": ""
+            "img_source": "https://i.imgur.com/JgZqF67.png"
         }
   ];  

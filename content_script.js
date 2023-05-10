@@ -27,6 +27,7 @@ creatorsWrapper.appendChild(creatorsDropdownContainer);
 creators.forEach((creator) => {
   const link = document.createElement('a');
   link.href = creator.url;
+  
 
   // Add image element
   const img = document.createElement('img');
@@ -38,10 +39,8 @@ creators.forEach((creator) => {
   link.appendChild(name);
 
   creatorsDropdownContainer.appendChild(link);
+  
 });
-
-  
-  
 
 homeLink.parentNode.insertBefore(creatorsWrapper, homeLink.nextSibling);
 
