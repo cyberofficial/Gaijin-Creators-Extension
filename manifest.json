@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gaijin Content Creators Dropdown",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adds a Content Creators dropdown to the Gaijin Store page",
   "permissions": ["activeTab"],
   "action": {
