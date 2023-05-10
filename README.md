@@ -16,7 +16,7 @@ Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firef
 - Displays the name of the content creator currently being supported.
 - Provides a dropdown menu to select and support different content creators.
 
-**Reminder:** The Gaijin Store automatically locks the selected content creator for 1 hour, after which users can support another creator. If a purchase is made within the hour, the timer is removed, and users can immediately support another creator.
+**Reminder:** The Gaijin Store automatically locks the selected content creator for 1 hour, after which users can support another creator.
 
 ## Installation
 

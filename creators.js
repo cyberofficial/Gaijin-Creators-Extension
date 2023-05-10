@@ -298,5 +298,95 @@
             "name": "Meumeu",
             "url": "https://store.gaijin.net/catalog.php?partner=Meumeu03&partner_val=w7cyuzdj",
             "img_source": "https://i.imgur.com/JgZqF67.png"
+        },
+        {
+            "name": "TVKowalowe",
+            "url": "https://store.gaijin.net/catalog.php?partner=TVKowalowe&partner_val=713f47rh",
+            "img_source": "https://i.imgur.com/cndXkFx.png"
+        },
+        {
+            "name": "---- Registration Bonuses ----",
+            "url": "",
+            "img_source": "https://i.imgur.com/eOLzO3B.png"
+        },
+        {
+            "name": "CYRILmp4",
+            "url": "https://warthunder.com/en/play4free?r=utb_cyril_v1#/",
+            "img_source": "https://i.imgur.com/VJonMWD.png"
+        },
+        {
+            "name": "AquaFPS",
+            "url": "https://warthunder.com/en/play4free?r=utb_aquafps_v1#/register",
+            "img_source": "https://i.imgur.com/pUxWnxS.png"
+        },
+        {
+            "name": "PewDiePIe",
+            "url": "https://warthunder.com/en/play4free?r=utb_pewdiepie_v1#/",
+            "img_source": "https://i.imgur.com/wPV8Ofp.png"
+        },
+        {
+            "name": "Life of Boris",
+            "url": "https://warthunder.com/en/play4free?r=utb_boris_v3#/",
+            "img_source": "https://i.imgur.com/GHHxUAn.png"
+        },
+        {
+            "name": "Robbaz",
+            "url": "https://warthunder.com/en/play4free?r=utb_Robbaz#/register",
+            "img_source": "https://i.imgur.com/fLh3eDt.png"
+        },
+        {
+            "name": "TheRussianBadger",
+            "url": "https://playwt.link/therussianbadger",
+            "img_source": "https://i.imgur.com/ItKZU9r.png"
+        },
+        {
+            "name": "VEGETTA777",
+            "url": "https://warthunder.com/en/play4free?r=utb_vgta_v1#/",
+            "img_source": "https://i.imgur.com/1hjpGEB.png"
+        },
+        {
+            "name": "IAMWILDCAT",
+            "url": "https://warthunder.com/en/play4free?r=utb_iaw_v1#/",
+            "img_source": "https://i.imgur.com/Yyh3Xaz.png"
+        },
+        {
+            "name": "Daithi De Nogla",
+            "url": "https://warthunder.com/en/play4free?r=utb_ddn_v1#/",
+            "img_source": "https://i.imgur.com/vevd4qW.png"
+        },
+        {
+            "name": "Niccaman",
+            "url": "https://warthunder.com/en/play4free?r=utb_niccaman_v1#/register",
+            "img_source": "https://i.imgur.com/XBF8VrP.png"
+        },
+        {
+            "name": "BradWOTO",
+            "url": "https://warthunder.com/en/play4free?r=utb_bradwoto_v1#/",
+            "img_source": "https://i.imgur.com/SOcdklj.png"
+        },
+        {
+            "name": "GERMANLETSPLAY",
+            "url": "https://warthunder.com/en/play4free?r=utb_glplay_v1#/register",
+            "img_source": "https://i.imgur.com/rbZGfRx.png"
+        },
+        {
+            "name": "Willyrex",
+            "url": "https://warthunder.com/en/play4free?r=utb_wrex_v1#/register",
+            "img_source": "https://i.imgur.com/otQxcke.png"
+        },
+        {
+            "name": "BigJigglyPanda",
+            "url": "https://warthunder.com/en/play4free?r=utb_bijipa_v1#/",
+            "img_source": "https://i.imgur.com/7YYBYbY.png"
+        },
+        {
+            "name": "WarpBeacon",
+            "url": "https://warthunder.com/en/play4free?r=youblog_warpbeacon#/",
+            "img_source": "https://i.imgur.com/EVYsqxC.png"
+        },
+        {
+            "name": "MORGENSHTERN",
+            "url": "https://warthunder.com/en/play4free?r=youblog_morgenshtern#/",
+            "img_source": "https://i.imgur.com/GUPh9Bw.png"
         }
   ];  
