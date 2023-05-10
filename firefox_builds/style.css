@@ -80,3 +80,8 @@
   font-weight: bold;
   text-align: center;
 }
+.reminder {
+  font-weight: 700;
+  color: red;
+  margin-left: 5px;
+}
