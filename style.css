@@ -17,7 +17,7 @@
     z-index: 1000;
    /* Increase the z-index value */
     border-radius: 4px;
-    max-height: 300px;
+    max-height: 700px;
    /* Adjust the height based on the number of items and their size */
     overflow-y: auto;
 }
@@ -69,3 +69,10 @@
   .dropdown-btn.glowing {
     animation: glow 1s infinite alternate;
   }
+/* Style the creator icons */
+.creator-icon {
+  width: 85px;
+  height: 85px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
