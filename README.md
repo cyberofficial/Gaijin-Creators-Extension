@@ -4,6 +4,10 @@
 
 Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firefox, Microsoft Edge, and Opera that adds a Content Creators dropdown to the Gaijin Store page. It allows users to support their favorite content creators directly from the store page.
 
+## Code Quality:
+[![CodeQL](https://github.com/cyberofficial/Gaijin-Creators-Extension/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyberofficial/Gaijin-Creators-Extension/actions/workflows/codeql.yml)
+
+## Store Links
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gpogdmpopibagcdlgbomfbbnjjfmmmnf.svg?label=Chrome%20Web%20Store&style=for-the-badge)](https://chrome.google.com/webstore/detail/gaijin-content-creators-d/gpogdmpopibagcdlgbomfbbnjjfmmmnf?hl=en&authuser=0) [![Firefox Add-ons](https://img.shields.io/amo/v/gaijin-cc-store-button.svg?label=Firefox%20Add-ons&style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/gaijin-cc-store-button/)
 
 ## Features
