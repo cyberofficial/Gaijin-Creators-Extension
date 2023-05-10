@@ -27,11 +27,20 @@ creatorsWrapper.appendChild(creatorsDropdownContainer);
 creators.forEach((creator) => {
   const link = document.createElement('a');
   link.href = creator.url;
-  link.textContent = creator.name;
+  
+
+  // Add image element
+  const img = document.createElement('img');
+  img.src = creator.img_source;
+  img.classList.add('creator-icon');
+  link.appendChild(img);
+
+  const name = document.createTextNode(creator.name);
+  link.appendChild(name);
+
   creatorsDropdownContainer.appendChild(link);
+  
 });
-  
-  
 
 homeLink.parentNode.insertBefore(creatorsWrapper, homeLink.nextSibling);
 
