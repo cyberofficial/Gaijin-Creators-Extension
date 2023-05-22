@@ -75,15 +75,20 @@ if (textElement) {
   textElement.textContent = "";
 }
 
-// change href of document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(1)") to https://github.com/cyberofficial/Gaijin-Creators-Extension/issues
 const reportIssueButton = document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(1)");
-reportIssueButton.href = "https://github.com/cyberofficial/Gaijin-Creators-Extension/issues";
-// same with this document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(62)") but remove the href
+if (reportIssueButton) {
+  reportIssueButton.href = "https://github.com/cyberofficial/Gaijin-Creators-Extension/issues";
+}
+
 const emptyButton = document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(62)");
-emptyButton.href = "";
-// also with this one document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(2)")
+if (emptyButton) {
+  emptyButton.href = "";
+}
+
 const emptyButton2 = document.querySelector("#bodyRoot > div.modal-container > div > a:nth-child(2)");
-emptyButton2.href = "";
+if (emptyButton2) {
+  emptyButton2.href = "";
+}
 
 // Modify the image in <a> element
 const imageElement = document.querySelector("body > div > a.error-page__logo");
