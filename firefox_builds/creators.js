@@ -1,11 +1,11 @@
 const creators = [
     {
-        "name": "== Suggest a Creator ==",
+        "name": "Suggest a Creator",
         "url": "https://github.com/cyberofficial/Gaijin-Creators-Extension/issues",
         "img_source": "https://i.imgur.com/mhE8FGW.png"
     },
     {
-        "name": "---- Choose a Creator ----",
+        "name": "Choose a Creator",
         "url": "",
         "img_source": "https://i.imgur.com/y4z9Lpc.png"
     },
@@ -305,7 +305,7 @@ const creators = [
         "img_source": "https://i.imgur.com/cndXkFx.png"
     },
     {
-        "name": "---- Registration Bonuses ----",
+        "name": "Registration Bonuses",
         "url": "",
         "img_source": "https://i.imgur.com/eOLzO3B.png"
     },
