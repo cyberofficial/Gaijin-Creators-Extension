@@ -15,7 +15,7 @@
             "img_source": "https://i.imgur.com/2rhN1Ht.png"
         },
         {
-            "name": "PhlyDaily",
+            "name": "PhlyDaily1M",
             "url": "https://store.gaijin.net/story.php?title=Phlydailys-Million-Celebration-Pack",
             "img_source": "https://i.imgur.com/rGymDwG.png"
         },
