@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const partnerName = urlParams.get('partner');
+const partnerName = urlParams.get('partner')?.replace(/%20/g, ' ');
 
 const homeLink = document.querySelector('.nav__home');
 
@@ -31,7 +31,7 @@ if (homeLink) {
     const link = document.createElement('a');
     // link.href = creator.url;
     // instead of creator.url we change to store.gaijin.net/creatorname
-    link.href = `https://store.gaijin.net/${creator.name}`;
+    link.href = `https://store.gaijin.net/${creator.name.replace(/ /g, '%20')}`;
     link.classList.add('creator-link');
 
     // Add image element
@@ -93,7 +93,7 @@ if (emptyButton2) {
 // Modify the image in <a> element
 const imageElement = document.querySelector("body > div > a.error-page__logo");
 if (imageElement) {
-  const partnerNameFromURL = window.location.href.split('/').pop();
+  const partnerNameFromURL = decodeURIComponent(window.location.href.split('/').pop().replace(/%20/g, ' '));
   const matchingCreator = creators.find((creator) =>
     creator.name.toLowerCase() === partnerNameFromURL.toLowerCase()
   );
