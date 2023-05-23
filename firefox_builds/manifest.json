@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Gaijin Content Creators Dropdown",
-  "version": "1.0.431",
-  "description": "Adds a Content Creators dropdown to the Gaijin Store page",
+  "name": "Gaijin Content Creators Popup",
+  "version": "1.0.432",
+  "description": "Adds a Content Creators Popup to the Gaijin Store page",
   "permissions": ["activeTab"],
   "action": {
     "default_icon": {
