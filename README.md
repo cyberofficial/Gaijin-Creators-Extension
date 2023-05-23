@@ -2,6 +2,10 @@
 
 ![Extension Banner](IMAGE_URL)
 
+
+### Known Issues
+* The store page had extra protections enabled, if you encounter problems like cloudflare freezing or not working, disable extension, refresh page, then reneable then refresh again.
+
 Gaijin Content Creators Dropdown is a browser extension for Google Chrome, Firefox, Microsoft Edge, and Opera that adds a Content Creators dropdown to the Gaijin Store page. It allows users to support their favorite content creators directly from the store page.
 
 ## Code Quality:
