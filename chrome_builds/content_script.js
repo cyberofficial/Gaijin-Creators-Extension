@@ -142,16 +142,16 @@ if (imageElement) {
   );
 
   if (matchingCreator) {
-    // Stop the page loading after a delay
-    // Check if the current page is a Cloudflare page
-    const isCloudflarePage = document.querySelector('meta[property="cf:template_id"]');
-
-    // Stop the page loading only if it's not a Cloudflare page
-    if (!isCloudflarePage) {
+    // if the page title is 404 then use this code setTimeout(function () {window.stop();}, 2900);
+    // Check if the page title contains "404"
+    if (document.title.includes("404")) {
+      // Set a timeout of 2900 milliseconds (2.9 seconds)
       setTimeout(function () {
+        // Stop the page from loading
         window.stop();
       }, 2900);
     }
+
 
     // Replace the SVG content with the creator's image
     imageElement.innerHTML = '';
