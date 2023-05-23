@@ -143,9 +143,15 @@ if (imageElement) {
 
   if (matchingCreator) {
     // Stop the page loading after a delay
-    setTimeout(function () {
-      window.stop();
-    }, 2500);
+    // Check if the current page is a Cloudflare page
+    const isCloudflarePage = document.querySelector('meta[property="cf:template_id"]');
+
+    // Stop the page loading only if it's not a Cloudflare page
+    if (!isCloudflarePage) {
+      setTimeout(function () {
+        window.stop();
+      }, 2900);
+    }
 
     // Replace the SVG content with the creator's image
     imageElement.innerHTML = '';
