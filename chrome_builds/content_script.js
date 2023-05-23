@@ -53,8 +53,8 @@ if (homeLink) {
   homeLink.parentNode.insertBefore(creatorsWrapper, homeLink.nextSibling);
 
   modalBtn.addEventListener("click", () => {
-    modalContainer.style.display = modalContainer.style.display === "none" ? "block" : "none";
-  });
+    modalContainer.style.display = "block";
+  });  
 
   // Get the <body> element to append the modal
   document.body.appendChild(modalContainer);
