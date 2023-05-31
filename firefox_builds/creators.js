@@ -388,5 +388,10 @@ const creators = [
         "name": "MORGENSHTERN",
         "url": "https://warthunder.com/en/play4free?r=youblog_morgenshtern#/",
         "img_source": "https://i.imgur.com/GUPh9Bw.png"
+    },
+    {
+        "name": "\"Dr. Gnus\" Декаль",
+        "url": "https://warthunder.ru/ru/play4free?r=youblog_drgnus#/register",
+        "img_source": "https://i.imgur.com/1nZXwbd.png"
     }
 ];  
