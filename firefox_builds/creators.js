@@ -305,6 +305,11 @@ const creators = [
         "img_source": "https://i.imgur.com/cndXkFx.png"
     },
     {
+        "name": "Nexooos",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Nexooos&partner_val=p18hzz7j",
+        "img_source": "https://i.imgur.com/0alkDUz.png"
+    },
+    {
         "name": "Registration Bonuses",
         "url": "",
         "img_source": "https://i.imgur.com/eOLzO3B.png"
@@ -393,5 +398,25 @@ const creators = [
         "name": "\"Dr. Gnus\" Декаль",
         "url": "https://warthunder.ru/ru/play4free?r=youblog_drgnus#/register",
         "img_source": "https://i.imgur.com/1nZXwbd.png"
+    },
+    {
+        "name": "Store Packs",
+        "url": "",
+        "img_source": "https://i.imgur.com/REquaUy.png"
+    },
+    {
+        "name": "Tuesday Abrams Pack",
+        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Tuesday-Abrams-Pack",
+        "img_source": "https://i.imgur.com/lEPFjCL.png"
+    },
+    {
+        "name": "Cyber Warrior Pack",
+        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Cyber-Warrior-Pack",
+        "img_source": "https://i.imgur.com/WKvtNmR.png"
+    },
+    {
+        "name": "Radio Snail Pack",
+        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Radio-Snail-Pack",
+        "img_source": "https://i.imgur.com/l1Y3TbT.png"
     }
-];  
+];
