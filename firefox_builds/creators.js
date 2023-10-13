@@ -418,5 +418,10 @@ const creators = [
         "name": "Radio Snail Pack",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Radio-Snail-Pack",
         "img_source": "https://i.imgur.com/l1Y3TbT.png"
+    },
+    {
+        "name": "Snailonidas",
+        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Snailonidas-Pack",
+        "img_source": "https://i.imgur.com/4VMusFm.jpg"
     }
 ];
