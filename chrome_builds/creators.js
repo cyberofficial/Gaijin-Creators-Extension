@@ -260,7 +260,7 @@ const creators = [
         "img_source": "https://i.imgur.com/h4Fdgfo.png"
     },
     {
-        "name": "GIB_07",
+        "name": "GIB_o7",
         "url": "https://store.gaijin.net/catalog.php?partner=GIB_07&partner_val=el12clbg ",
         "img_source": "https://i.imgur.com/wm5C2gI.png"
     },
@@ -308,6 +308,36 @@ const creators = [
         "name": "Nexooos",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Nexooos&partner_val=p18hzz7j",
         "img_source": "https://i.imgur.com/0alkDUz.png"
+    },
+    {
+        "name": "Fall System Academy",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=FallFire&partner_val=j2f2tya6",
+        "img_source": "https://i.imgur.com/Ls5IPiQ.png"
+    },
+    {
+        "name": "Dirty Oxy Clean",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DirtyOxyClean&partner_val=tw1tqjsy",
+        "img_source": "https://i.imgur.com/Gaaxatr.png"
+    },
+    {
+        "name": "PINK",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Pink&partner_val=6z7k7k23",
+        "img_source": "https://i.imgur.com/d86io5p.png"
+    },
+    {
+        "name": "Joob",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Joob&partner_val=u7tsfhey",
+        "img_source": "https://i.imgur.com/wm5C2gI.png"
+    },
+    {
+        "name": "BPA_Jon",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=BPA_Jon&partner_val=n6ylk6r4",
+        "img_source": "https://i.imgur.com/DiDaxco.png"
+    },
+    {
+        "name": "ImJeffafa",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=ImJeffafa&partner_val=y82chsba ",
+        "img_source": "https://i.imgur.com/wm5C2gI.png"
     },
     {
         "name": "Registration Bonuses",

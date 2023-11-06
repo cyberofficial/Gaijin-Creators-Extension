@@ -76,6 +76,20 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
           }
       }
 
+     // Check if the current URL starts with 'https://store.gaijin.net/story.php'
+     if (window.location.href.startsWith('https://store.gaijin.net/story.php')) {
+         // Check if the element you want to check exists on the page
+         const checkIfSupportCreatorExists = document.querySelector("#bodyRoot > div.content.content_not-auth > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div.shop-buy__wrapper > div:nth-child(5)");
+         
+         if (!checkIfSupportCreatorExists) {
+         // Display a popup if the element does not exist
+         alert("Remember to support a creator!");
+         const ReminderText = document.querySelector("#buy-popup > div.popup__content-overflow > div > div.popup__content.popup-buy > form > div.popup-buy__title");
+         ReminderText.textContent = "Remember to support a creator!";
+         }
+     }
+    
+
       // Function to trigger shoot-up animation and redirect
       function shootUpAnimationAndRedirect(url) {
           const modalContainerElement = document.querySelector('.modal-container');
