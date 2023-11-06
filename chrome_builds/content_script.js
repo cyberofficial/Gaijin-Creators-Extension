@@ -132,6 +132,19 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
       emptyButton2.href = "";
   }
 
+  // Check if the current URL starts with 'https://store.gaijin.net/story.php'
+  if (window.location.href.startsWith('https://store.gaijin.net/story.php')) {
+    // Check if document.querySelector("#bodyRoot > div.content > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div > div:nth-child(5)") doesnt exist
+    if (!document.querySelector("#bodyRoot > div.content > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div > div:nth-child(5)")) {
+        // create an alert box saying "Remember to support a creator!"
+        alert("Remember to support a creator!");    
+        const CheckoutReminder = document.querySelector("#buy-popup > div.popup__content-overflow > div > div.popup__content.popup-buy > form > div.popup-buy__title");
+
+        if (CheckoutReminder) {
+            CheckoutReminder.textContent = "Remember to support a creator!";
+        }
+  }}
+
   // Modify the image in <a> element
   const imageElement = document.querySelector('body > div > a.error-page__logo');
   if (imageElement) {
