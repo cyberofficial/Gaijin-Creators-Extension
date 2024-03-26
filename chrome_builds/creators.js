@@ -60,11 +60,6 @@ const creators = [
         "img_source": "https://i.imgur.com/p1mGWpP.png"
     },
     {
-        "name": "Alconafter",
-        "url": "https://store.gaijin.net/catalog.php?partner=Alconafter&partner_val=l4hlnydz",
-        "img_source": "https://i.imgur.com/w8biEAX.png"
-    },
-    {
         "name": "Alatriste",
         "url": "https://store.gaijin.net/catalog.php?partner=AL300&partner_val=w1maj7aa",
         "img_source": "https://i.imgur.com/GATBIGC.png"
@@ -336,8 +331,33 @@ const creators = [
     },
     {
         "name": "ImJeffafa",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=ImJeffafa&partner_val=y82chsba ",
-        "img_source": "https://i.imgur.com/wm5C2gI.png"
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=ImJeffafa&partner_val=y82chsba",
+        "img_source": "https://i.imgur.com/BZu5ZcD.png"
+    },
+    {
+        "name": "xSolitude",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=xS0litude&partner_val=a4eb66pq",
+        "img_source": "https://i.imgur.com/XkiVeEk.png"
+    },
+    {
+        "name": "TheGreenlandicGamer",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=TheGreenlandicGamer&partner_val=rt16bh24",
+        "img_source": "https://i.imgur.com/NHPNvDL.png"
+    },
+    {
+        "name": "Panzerblitz",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Panzerblitz&partner_val=hr67ht1p",
+        "img_source": "https://i.imgur.com/lM4TwJg.png"
+    },
+    {
+        "name": "Zenturion7",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Zenturion7&partner_val=tmx898cr",
+        "img_source": "https://i.imgur.com/u3Ma0OC.png"
+    },
+    {
+        "name": "Seek",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Seek&partner_val=7zuxqznm",
+        "img_source": "https://i.imgur.com/tb4IBDn.png"
     },
     {
         "name": "Registration Bonuses",
@@ -425,9 +445,49 @@ const creators = [
         "img_source": "https://i.imgur.com/GUPh9Bw.png"
     },
     {
+        "name": "Hacksmith Industries",
+        "url": "https://warthunder.com/us/play4free?r=utb_hacksmith_v1#/",
+        "img_source": "https://i.imgur.com/cgFCvSA.png"
+    },
+    {
+        "name": "Military Aviation History",
+        "url": "https://warthunder.com/en/play4free?r=utb_militaryaviationhistory_q1#/",
+        "img_source": "https://i.imgur.com/IRL58ho.png"
+    },
+    {
+        "name": "OverSimplified",
+        "url": "https://warthunder.com/en/play4free?r=utb_oversimplified_2022#/",
+        "img_source": "https://i.imgur.com/mGvxHqe.png"
+    },
+    {
+        "name": "Eva Elfie",
+        "url": "https://warthunder.com/en/play4free?r=youblog_evaelfiebonus#/register",
+        "img_source": "https://i.imgur.com/ZwNMPPV.png"
+    },
+    {
+        "name": "ZAKATOON",
+        "url": "https://warthunder.com/en/play4free?r=youblog_ZAKATOON#/",
+        "img_source": "https://i.imgur.com/7jp1F4h.png"
+    },
+    {
         "name": "\"Dr. Gnus\" Декаль",
         "url": "https://warthunder.ru/ru/play4free?r=youblog_drgnus#/register",
         "img_source": "https://i.imgur.com/1nZXwbd.png"
+    },
+    {
+        "name": "Happy Wolf",
+        "url": "https://warthunder.com/en/play4free?r=youblog_happywolf#/",
+        "img_source": "https://i.imgur.com/zQupkVJ.png"
+    },
+    {
+        "name": "Martincitopants",
+        "url": "https://warthunder.com/en/play4free?r=utb_martincitopants_v1#/",
+        "img_source": "https://i.imgur.com/Gvky0b4.png"
+    },
+    {
+        "name": "RADIO TAPOK",
+        "url": "https://warthunder.com/en/play4free?r=youblog_radiotapok#/",
+        "img_source": "https://i.imgur.com/pgzros1.png"
     },
     {
         "name": "Store Packs",
@@ -435,23 +495,58 @@ const creators = [
         "img_source": "https://i.imgur.com/REquaUy.png"
     },
     {
-        "name": "Tuesday Abrams Pack",
+        "name": "eSports",
+        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=150-Golden-Eagles",
+        "img_source": "https://i.imgur.com/DYXZZPp.png"
+    },
+    {
+        "name": "Tuesday Abrams",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Tuesday-Abrams-Pack",
-        "img_source": "https://i.imgur.com/lEPFjCL.png"
+        "img_source": "https://i.imgur.com/FAfWtoG.png"
     },
     {
-        "name": "Cyber Warrior Pack",
-        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Cyber-Warrior-Pack",
-        "img_source": "https://i.imgur.com/WKvtNmR.png"
-    },
-    {
-        "name": "Radio Snail Pack",
+        "name": "Radio Snail",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Radio-Snail-Pack",
-        "img_source": "https://i.imgur.com/l1Y3TbT.png"
+        "img_source": "https://i.imgur.com/FXqCujK.png"
     },
     {
-        "name": "Snailonidas",
+        "name": "\"Snailonidas\" Pack",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Snailonidas-Pack",
-        "img_source": "https://i.imgur.com/4VMusFm.jpg"
-    }
+        "img_source": "https://i.imgur.com/MD8LqFq.png"
+    },
+    {
+        "name": "\"Omega Predator\" Stream Pack",
+        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Omega-Predator-Stream-Pack",
+        "img_source": "https://i.imgur.com/6WVMtQF.png"
+    },
+    {
+        "name": "3D Decor",
+        "url": "",
+        "img_source": "https://i.imgur.com/5Gau5P0.png"
+    },
+    {
+        "name": "PhlyDaily - $$",
+        "url": "https://store.gaijin.net/story.php?title=Phlydailys-Million-Celebration-Pack",
+        "img_source": "https://i.imgur.com/CgiaPLq.png"
+    },
+    {
+        "name": "EN Body Pillow - Registration",
+        "url": "https://warthunder.com/en/animeplay?r=semplay4free#/",
+        "img_source": "https://i.imgur.com/2alEr6N.png"
+    },
+    {
+        "name": "RU Body Pillow - Registration",
+        "url": "https://warthunder.ru/ru/animeplay?r=semplay4free#/",
+        "img_source": "https://i.imgur.com/TIpnta2.png"
+    },
+    {
+        "name": "FR Body Pillow - Registration",
+        "url": "https://warthunder.com/fr/animeplay?r=semplay4free#/",
+        "img_source": "https://i.imgur.com/cC1zROL.png"
+    },
+    {
+        "name": "DE Body Pillow - Registration",
+        "url": "https://warthunder.com/de/animeplay?r=semplay4free#/",
+        "img_source": "https://i.imgur.com/1PoMRew.png"
+    },
 ];
