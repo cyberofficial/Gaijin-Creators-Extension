@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gaijin Content Creators Popup",
-  "version": "1.0.439",
+  "version": "1.0.440",
   "description": "Adds a Content Creators popup to the Gaijin Store page",
   "action": {
     "default_icon": {

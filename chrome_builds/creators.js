@@ -360,6 +360,11 @@ const creators = [
         "img_source": "https://i.imgur.com/tb4IBDn.png"
     },
     {
+        "name": "Windsurfer2105",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Windsurfer2105&partner_val=1ujagp4w",
+        "img_source": "https://i.imgur.com/rl1D44l.png"
+    },
+    {
         "name": "Registration Bonuses",
         "url": "",
         "img_source": "https://i.imgur.com/eOLzO3B.png"
