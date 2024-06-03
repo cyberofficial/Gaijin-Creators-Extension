@@ -23,7 +23,7 @@
   background-color: #111150;
   margin: 5% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #ff0000;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
@@ -72,6 +72,8 @@
   font-size: 16px;
 }
 
+
+
 .modal-btn {
   color: #f6ecd4;
   background-image: url('https://i.imgur.com/IW84POo.png');
@@ -97,7 +99,7 @@
 
 .creator-icon {
   width: 128px;
-  height: 128px;
+  /*  height: 128px; */
   margin-right: 4px;
   vertical-align: middle;
 }

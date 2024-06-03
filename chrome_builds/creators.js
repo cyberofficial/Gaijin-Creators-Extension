@@ -495,6 +495,11 @@ const creators = [
         "img_source": "https://i.imgur.com/pgzros1.png"
     },
     {
+        "name": "Asmongold",
+        "url": "https://warthunder.com/us/play4free?r=youblog_asmongold#/",
+        "img_source": "https://i.imgur.com/iCUU8zo.png"
+    },
+    {
         "name": "Store Packs",
         "url": "",
         "img_source": "https://i.imgur.com/REquaUy.png"
@@ -523,6 +528,11 @@ const creators = [
         "name": "\"Omega Predator\" Stream Pack",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Omega-Predator-Stream-Pack",
         "img_source": "https://i.imgur.com/6WVMtQF.png"
+    },
+    {
+        "name": "War Thunder - \"Air Superiority\" Pack",
+        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=War-Thunder_Air-Superiority-Pack",
+        "img_source": "https://i.imgur.com/EQCWqHB.png"
     },
     {
         "name": "3D Decor",

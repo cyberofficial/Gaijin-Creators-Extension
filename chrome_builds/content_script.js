@@ -172,7 +172,7 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
           const img = document.createElement('img');
           img.src = matchingCreator.img_source;
           img.alt = 'Decal Image';
-          img.width = 250;
+          //img.width = 250;
           img.height = 250;
           imageElement.appendChild(img);
 
