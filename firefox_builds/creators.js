@@ -157,7 +157,7 @@ const creators = [
     {
         "name": "Ruski9000",
         "url": "https://store.gaijin.net/catalog.php?partner=Ruskii9000&partner_val=8h9d3kwl",
-        "img_source": "https://i.imgur.com/ly8ujKl.png"
+        "img_source": "https://i.imgur.com/uTlKucv.png"
     },
     {
         "name": "GERBrowny",
@@ -187,7 +187,7 @@ const creators = [
     {
         "name": "Spookston",
         "url": "https://store.gaijin.net/catalog.php?partner=Spookston&partner_val=d3zfba73",
-        "img_source": "https://i.imgur.com/cuLwIqX.png"
+        "img_source": "https://i.imgur.com/agPEk8k.png"
     },
     {
         "name": "Trenlass",
@@ -322,7 +322,7 @@ const creators = [
     {
         "name": "Joob",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Joob&partner_val=u7tsfhey",
-        "img_source": "https://i.imgur.com/wm5C2gI.png"
+        "img_source": "https://i.imgur.com/o9RSDX5.png"
     },
     {
         "name": "BPA_Jon",
@@ -363,6 +363,26 @@ const creators = [
         "name": "Windsurfer2105",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Windsurfer2105&partner_val=1ujagp4w",
         "img_source": "https://i.imgur.com/rl1D44l.png"
+    },
+    {
+        "name": "Deeyohh",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Deeyohh&partner_val=22atu34d",
+        "img_source": "https://i.imgur.com/NSF9NGS.png"
+    },
+    {
+        "name": "General Lee",
+        "url": "https://store.gaijin.net/catalog.php? category=WarThunder&partner=GeneralLee&partner_val=mnzw4g72",
+        "img_source": "https://i.imgur.com/Do2QhYI.png"
+    },
+    {
+        "name": "Killa West",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=KilaWest&partner_val=9jrjg3gy",
+        "img_source": "https://i.imgur.com/xqLhFlB.png\n"
+    },
+    {
+        "name": "Ask3lad",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Ask3lad&partner_val=lpzjtauw",
+        "img_source": "https://i.imgur.com/wm5C2gI.png"
     },
     {
         "name": "Registration Bonuses",
@@ -500,39 +520,64 @@ const creators = [
         "img_source": "https://i.imgur.com/iCUU8zo.png"
     },
     {
+        "name": "Nano",
+        "url": "https://warthunder.com/en/play4free?r=utb_nano_v2#/register",
+        "img_source": "https://i.imgur.com/Lk2nK62.png"
+    },
+    {
+        "name": "Bokoen1",
+        "url": "https://warthunder.com/en/play4free?r=utb_bokoen1_2024#/register",
+        "img_source": "https://i.imgur.com/wthBunE.png"
+    },
+    {
+        "name": "Utopia",
+        "url": "https://warthunder.com/en/play4free?r=utub_UtopiaShow&erid=LjN8KKEgb#/",
+        "img_source": "https://i.imgur.com/4MM06Pf.png"
+    },
+    {
         "name": "Store Packs",
         "url": "",
         "img_source": "https://i.imgur.com/REquaUy.png"
     },
     {
+        "name": "Youblog Guancha",
+        "url": "https://warthunder.com/en/play4free?r=youblog_guancha",
+        "img_source": "https://i.imgur.com/A3lAewJ.png"
+    },
+    {
+        "name": "1st Squadron \"Wukong\" Code: 52MONKEYS",
+        "url": "https://store.gaijin.net/activate.php",
+        "img_source": "https://i.imgur.com/APPbbzi.png"
+    },
+    {
         "name": "eSports",
-        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=150-Golden-Eagles",
-        "img_source": "https://i.imgur.com/DYXZZPp.png"
+        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd",
+        "img_source": "https://i.imgur.com/JkzNGi0.png"
+    },
+    {
+        "name": "Air Superiority",
+        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=War-Thunder_Air-Superiority-Pack",
+        "img_source": "https://i.imgur.com/wX2iDSD.png"
     },
     {
         "name": "Tuesday Abrams",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Tuesday-Abrams-Pack",
-        "img_source": "https://i.imgur.com/FAfWtoG.png"
+        "img_source": "https://i.imgur.com/i2viugb.png"
     },
     {
         "name": "Radio Snail",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Radio-Snail-Pack",
-        "img_source": "https://i.imgur.com/FXqCujK.png"
+        "img_source": "https://i.imgur.com/3aE5Y4t.png"
     },
     {
-        "name": "\"Snailonidas\" Pack",
-        "url": "https://store.gaijin.net/story.php?title=War-Thunder_Snailonidas-Pack",
-        "img_source": "https://i.imgur.com/MD8LqFq.png"
+        "name": "Armored Apex",
+        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=War-Thunder_Armored-Apex-Pack",
+        "img_source": "https://i.imgur.com/HqDTDFz.png"
     },
     {
-        "name": "\"Omega Predator\" Stream Pack",
+        "name": "Omega Predator",
         "url": "https://store.gaijin.net/story.php?title=War-Thunder_Omega-Predator-Stream-Pack",
-        "img_source": "https://i.imgur.com/6WVMtQF.png"
-    },
-    {
-        "name": "War Thunder - \"Air Superiority\" Pack",
-        "url": "https://store.gaijin.net/story.php?partner=eSport&partner_val=4h2g7hzd&title=War-Thunder_Air-Superiority-Pack",
-        "img_source": "https://i.imgur.com/EQCWqHB.png"
+        "img_source": "https://i.imgur.com/OYJszgL.png"
     },
     {
         "name": "3D Decor",
