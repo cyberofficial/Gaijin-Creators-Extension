@@ -382,7 +382,17 @@ const creators = [
     {
         "name": "Ask3lad",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Ask3lad&partner_val=lpzjtauw",
-        "img_source": "https://i.imgur.com/wm5C2gI.png"
+        "img_source": "https://i.imgur.com/Ydkfdvx.png"
+    },
+    {
+        "name": "Lionstripe",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Lionstripe&partner_val=42alaxss",
+        "img_source": "https://i.imgur.com/fQL1Fqp.png"
+    },
+    {
+        "name": "TheCodMineMan",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=TheCodMineMan&partner_val=8epts9c1",
+        "img_source": "https://i.imgur.com/ddPNtLE.png"
     },
     {
         "name": "Registration Bonuses",

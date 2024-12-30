@@ -6,4 +6,5 @@ node_modules
 package.json
 package-lock.json
 firefox_builds/artifacts/
+chrome_builds/builds
 .idea
