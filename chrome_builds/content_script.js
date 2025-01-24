@@ -3,6 +3,20 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
   const urlParams = new URLSearchParams(window.location.search);
   const partnerName = urlParams.get('partner')?.replace(/%20/g, ' ');
 
+  // Function to add partner name to all links
+  function addPartnerNameToLinks(partnerName) {
+      const links = document.querySelectorAll('a');
+      links.forEach((link) => {
+          const url = new URL(link.href);
+          url.searchParams.set('partner', partnerName);
+          link.href = url.toString();
+      });
+  }
+
+  if (partnerName) {
+      addPartnerNameToLinks(partnerName);
+  }
+
   // Find the home link on the page
   const homeLink = document.querySelector('.nav__home');
 
@@ -15,14 +29,49 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
       const modalBtn = document.createElement('button');
       modalBtn.classList.add('modal-btn');
       modalBtn.textContent = 'Support a Content Creator';
+      modalBtn.style.backgroundColor = '#4CAF50';
+      modalBtn.style.color = '#fff';
+      modalBtn.style.padding = '10px 20px';
+      modalBtn.style.border = 'none';
+      modalBtn.style.borderRadius = '5px';
+      modalBtn.style.cursor = 'pointer';
+      modalBtn.addEventListener('mouseover', () => {
+        modalBtn.style.backgroundColor = '#45a049';
+      });
+      modalBtn.addEventListener('mouseout', () => {
+        modalBtn.style.backgroundColor = '#4CAF50';
+      });
       creatorsWrapper.appendChild(modalBtn);
 
-      // If a partner name exists, display supporting text
+      // If a partner name exists, display supporting text inside the button
       if (partnerName) {
-          const supportingText = document.createElement('span');
-          supportingText.textContent = `Currently Supporting: ${partnerName}`;
-          supportingText.style.marginLeft = '10px';
-          creatorsWrapper.appendChild(supportingText);
+          modalBtn.textContent = `Currently Supporting: ${partnerName}`;
+
+          // Add mini decal image under the partner name
+          const matchingCreator = creators.find((creator) =>
+              creator.name.toLowerCase() === partnerName.toLowerCase()
+          );
+          if (matchingCreator) {
+              const decalContainer = document.querySelector("#bodyRoot > div.content > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div.shop-buy__wrapper > table:nth-child(9) > tbody > tr > td > div");
+              if (decalContainer) {
+                  const decalDetails = document.createElement('div');
+                  decalDetails.classList.add('shop-buy__details');
+                  decalDetails.innerHTML = `
+                      <ul>
+                          <li></li>
+                      </ul>
+                  `;
+                  decalContainer.appendChild(decalDetails);
+
+                  // Add image element for creator decal
+                  const decalImg = document.createElement('img');
+                  decalImg.src = matchingCreator.img_source;
+                  decalImg.alt = `${matchingCreator.name} decal`;
+                  decalImg.style.width = '100px'; // Adjust size as needed
+                  decalImg.style.marginTop = '10px';
+                  decalContainer.appendChild(decalImg);
+              }
+          }
       } else {
           // Add glowing effect to the button if no partner name
           modalBtn.classList.add('glowing');
@@ -132,8 +181,8 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
       emptyButton2.href = "";
   }
 
-  // Check if the current URL starts with 'https://store.gaijin.net/story.php'
-  if (window.location.href.startsWith('https://store.gaijin.net/story.php')) {
+  // Check if the current URL starts with 'https://store.gaijin.net/story.php' and no partnerName
+  if (window.location.href.startsWith('https://store.gaijin.net/story.php') && !partnerName) {
     // Check if document.querySelector("#bodyRoot > div.content > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div > div:nth-child(5)") doesnt exist
     if (!document.querySelector("#bodyRoot > div.content > section.section.shop.js-analytics > div.shop__aside > div > div.shop__buy.shop-buy > div > div:nth-child(5)")) {
         // create an alert box saying "Remember to support a creator!"
@@ -141,9 +190,25 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
         const CheckoutReminder = document.querySelector("#buy-popup > div.popup__content-overflow > div > div.popup__content.popup-buy > form > div.popup-buy__title");
 
         if (CheckoutReminder) {
-            CheckoutReminder.textContent = "Remember to support a creator!";
+            if (partnerName) {
+                CheckoutReminder.textContent = `Supporting: ${partnerName}`;
+                const matchingCreator = creators.find((creator) => 
+                    creator.name.toLowerCase() === partnerName.toLowerCase()
+                );
+                if (matchingCreator) {
+                    const partnerImg = document.createElement('img');
+                    partnerImg.src = matchingCreator.img_source;
+                    partnerImg.alt = `${matchingCreator.name} decal`;
+                    partnerImg.style.width = '50px';
+                    partnerImg.style.marginLeft = '10px';
+                    CheckoutReminder.appendChild(partnerImg);
+                }
+            } else {
+                CheckoutReminder.textContent = "Remember to support a creator!";
+            }
         }
-  }}
+    }
+  }
 
   // Modify the image in <a> element
   const imageElement = document.querySelector('body > div > a.error-page__logo');
@@ -198,6 +263,41 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
           returnToStoreButton.textContent = 'Return';
           returnToStoreButton.href = 'https://store.gaijin.net/';
           document.querySelector('body > div').appendChild(returnToStoreButton);
+
+          // Add fancy styles and animations
+          document.querySelector('body > div').style.textAlign = 'center';
+          document.querySelector('body > div').style.fontFamily = 'Arial, sans-serif';
+          document.querySelector('body > div > h1').style.color = '#4CAF50';
+          document.querySelector('body > div > h1').style.fontSize = '2em';
+          document.querySelector('body > div > p').style.fontSize = '1.2em';
+          document.querySelector('body > div > p').style.marginTop = '20px';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.margin = '10px';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.padding = '10px 20px';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.borderRadius = '5px';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.backgroundColor = '#4CAF50';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.color = '#fff';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.textDecoration = 'none';
+          document.querySelector('body > div > a.input-button.main__uppercase').style.transition = 'background-color 0.3s';
+
+          document.querySelector('body > div > a.input-button.main__uppercase').addEventListener('mouseover', function() {
+              this.style.backgroundColor = '#45a049';
+          });
+
+          document.querySelector('body > div > a.input-button.main__uppercase').addEventListener('mouseout', function() {
+              this.style.backgroundColor = '#4CAF50';
+          });
+
+          // Add fade-in animation
+          document.querySelector('body > div').style.animation = 'fadeIn 1s';
+
+          // Add keyframes for fade-in animation
+          const styleSheet = document.styleSheets[0];
+          styleSheet.insertRule(`
+              @keyframes fadeIn {
+                  from { opacity: 0; }
+                  to { opacity: 1; }
+              }
+          `, styleSheet.cssRules.length);
       }
   }
 } else {
