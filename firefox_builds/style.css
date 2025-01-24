@@ -5,6 +5,12 @@
   font-size: 20px;
   text-decoration: none;
   outline: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.modal-btn:hover {
+  transform: translateY(2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .modal-container {
@@ -17,10 +23,19 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.3s ease;
+}
+
+.modal-container.show {
+  opacity: 1;
+}
+
+.modal-container.hide {
+  opacity: 0;
 }
 
 .modal-content {
-  background-color: #111150;
+  background: linear-gradient(to bottom, #111150, #4a90e2);
   margin: 5% auto;
   padding: 20px;
   border: 1px solid #ff0000;
@@ -37,6 +52,8 @@
   border-radius: 10px; /* Rounded corners */
   scrollbar-width: thin; /* Custom scrollbar */
   scrollbar-color: #888 #242485;
+  border: 2px solid #00ff00;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes animatetop {
@@ -47,6 +64,18 @@
   to {
     top: 0;
     opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #00ff00;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ff00;
+  }
+  100% {
+    box-shadow: 0 0 10px #00ff00;
   }
 }
 
@@ -71,8 +100,6 @@
   color: #f6ecd4;
   font-size: 16px;
 }
-
-
 
 .modal-btn {
   color: #f6ecd4;
@@ -99,9 +126,16 @@
 
 .creator-icon {
   width: 128px;
-  /*  height: 128px; */
   margin-right: 4px;
   vertical-align: middle;
+  border: 2px solid #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.creator-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .dropdown-text {
