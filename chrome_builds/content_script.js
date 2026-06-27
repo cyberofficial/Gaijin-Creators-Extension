@@ -18,7 +18,11 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
   }
 
   // Find the home link on the page
-  const homeLink = document.querySelector('.nav__home');
+  // Try multiple selectors since the Gaijin store page was redesigned
+  const homeLink = document.querySelector('.nav__home')          // legacy selector
+    || document.querySelector('.nav__standalone-link')            // current store layout
+    || document.querySelector('.nav__right')                     // fallback
+    || document.querySelector('nav.nav');                        // final fallback
 
   if (homeLink) {
       // Create a wrapper div for content creators section
@@ -65,7 +69,7 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
 
                   // Add image element for creator decal
                   const decalImg = document.createElement('img');
-                  decalImg.src = matchingCreator.img_source;
+                  decalImg.src = chrome.runtime.getURL(matchingCreator.img_source);
                   decalImg.alt = `${matchingCreator.name} decal`;
                   decalImg.style.width = '100px'; // Adjust size as needed
                   decalImg.style.marginTop = '10px';
@@ -87,12 +91,14 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
       // Iterate over creators and create links for each
       creators.forEach((creator) => {
           const link = document.createElement('a');
-          link.href = `https://store.gaijin.net/${creator.name.replace(/ /g, '%20')}`;
+          link.href = creator.url
+            ? `https://store.gaijin.net/${encodeURIComponent(creator.name)}`
+            : `https://store.gaijin.net/`;
           link.classList.add('creator-link');
 
           // Add image element for creator
           const img = document.createElement('img');
-          img.src = creator.img_source;
+          img.src = chrome.runtime.getURL(creator.img_source);
           img.classList.add('creator-icon');
           link.appendChild(img);
 
@@ -104,6 +110,13 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
 
           link.appendChild(nameSpan);
 
+          // add CODE badge for code items
+          if (creator.code) {
+            const badge = document.createElement('span');
+            badge.textContent = 'CODE';
+            badge.style.cssText = 'display:inline-block;font-size:9px;color:#000;background:#ffd700;padding:1px 5px;border-radius:3px;margin-left:4px;font-weight:bold;vertical-align:middle';
+            nameSpan.appendChild(badge);
+          }
           modalContent.appendChild(link);
       });
 
@@ -136,26 +149,54 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
           }, 500);
       }
 
+      
+      // ---- Code popup modal ----
+      const codePopup = document.createElement('div');
+      codePopup.id = 'code-popup';
+      codePopup.style.cssText = 'display:none;position:fixed;z-index:10000;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.6)';
+      const popupInner = document.createElement('div');
+      popupInner.style.cssText = 'background:#1a1a2e;margin:15% auto;padding:25px;width:360px;border-radius:10px;text-align:center;border:2px solid #ffd700';
+      popupInner.innerHTML = '<h3 style="color:#ffd700;margin:0 0 15px">Activation Code</h3><p id="code-popup-text" style="color:#fff;font-size:20px;font-family:monospace;background:#000;padding:10px;border-radius:5px;margin:0 0 15px;user-select:all"></p><button id="code-popup-copy" style="background:#4CAF50;color:#fff;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;margin-right:8px">Copy Code</button><button id="code-popup-activate" style="background:#ffd700;color:#000;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;margin-right:8px;font-weight:bold">Activate</button><button id="code-popup-close" style="background:#555;color:#fff;padding:10px 20px;border:none;border-radius:5px;cursor:pointer">Close</button>';
+      codePopup.appendChild(popupInner);
+      document.body.appendChild(codePopup);
+      codePopup.addEventListener('click', function(e) { if (e.target === codePopup) codePopup.style.display = 'none'; });
       // Attach click event listeners to creator images and names
       const creatorLinks = document.querySelectorAll('.creator-link');
-      creatorLinks.forEach((creatorLink) => {
+      creatorLinks.forEach((creatorLink, idx) => {
           const creatorImage = creatorLink.querySelector('.creator-icon');
           const creatorName = creatorLink.querySelector('.creator-name');
           const creatorUrl = creatorLink.href;
+          const cData = creators[idx];
 
           creatorImage.addEventListener('click', (event) => {
               event.preventDefault();
-              shootUpAnimationAndRedirect(creatorUrl);
+              (cData && cData.code ? (function(){ document.getElementById('code-popup-text').textContent = cData.code; codePopup.style.display = 'block'; })() : shootUpAnimationAndRedirect(creatorUrl))
           });
 
           creatorName.addEventListener('click', (event) => {
               event.preventDefault();
-              shootUpAnimationAndRedirect(creatorUrl);
+              (cData && cData.code ? (function(){ document.getElementById('code-popup-text').textContent = cData.code; codePopup.style.display = 'block'; })() : shootUpAnimationAndRedirect(creatorUrl))
           });
       });
 
+      // Code popup button handlers
+      document.getElementById('code-popup-copy').addEventListener('click', function() {
+          var c = document.getElementById('code-popup-text').textContent;
+          navigator.clipboard.writeText(c).then(function() {
+              document.getElementById('code-popup-copy').textContent = 'Copied!';
+              setTimeout(function() { document.getElementById('code-popup-copy').textContent = 'Copy Code'; }, 2000);
+          });
+      });
+      document.getElementById('code-popup-activate').addEventListener('click', function() {
+          window.open('https://store.gaijin.net/activate.php', '_blank');
+          codePopup.style.display = 'none';
+      });
+      document.getElementById('code-popup-close').addEventListener('click', function() {
+          codePopup.style.display = 'none';
+      });
+
   } else {
-      console.log('Could not find .nav__home element');
+      console.log('Could not find nav anchor element — store page may have changed');
   }
 
   // Modify the text in <div> element
@@ -197,7 +238,7 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
                 );
                 if (matchingCreator) {
                     const partnerImg = document.createElement('img');
-                    partnerImg.src = matchingCreator.img_source;
+                    partnerImg.src = chrome.runtime.getURL(matchingCreator.img_source);
                     partnerImg.alt = `${matchingCreator.name} decal`;
                     partnerImg.style.width = '50px';
                     partnerImg.style.marginLeft = '10px';
@@ -235,7 +276,7 @@ if (!document.documentElement.innerHTML.includes("Cloudflare")) {
           // Replace the SVG content with the creator's image
           imageElement.innerHTML = '';
           const img = document.createElement('img');
-          img.src = matchingCreator.img_source;
+          img.src = chrome.runtime.getURL(matchingCreator.img_source);
           img.alt = 'Decal Image';
           //img.width = 250;
           img.height = 250;
