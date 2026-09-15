@@ -626,21 +626,6 @@ const creators = [
         "img_source": "assets/RADAL.png"
     },
     {
-        "name": "Meumeu",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Meumeu03&partner_val=w7cyuzdj",
-        "img_source": "assets/Meumeu.png"
-    },
-    {
-        "name": "Discordia_Ch",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Discordia_Ch&partner_val=hxn1b38k",
-        "img_source": "assets/Discordia_Ch.png"
-    },
-    {
-        "name": "BPA_Jon",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=BPA_Jon&partner_val=n6ylk6r4",
-        "img_source": "assets/BPA_Jon.png"
-    },
-    {
         "name": "Gaijin (Student pilot)",
         "url": "https://store.gaijin.net/activate.php",
         "img_source": "assets/Gaijin_(Student_pilot).png",
@@ -652,9 +637,9 @@ const creators = [
         "img_source": "assets/ThunderWar.png"
     },
     {
-        "name": "Dark Productions",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DarkProductions&partner_val=wh27akb2",
-        "img_source": "assets/Dark_Productions.png"
+        "name": "JudeLow",
+        "url": "https://warthunder.com/en/play4free?r=youblog_judelow#/register",
+        "img_source": "assets/JudeLow.png"
     },
     {
         "name": "NightngaleTV",
@@ -662,14 +647,39 @@ const creators = [
         "img_source": "assets/NightngaleTV.png"
     },
     {
+        "name": "DEFYN",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DEFYN&partner_val=c56e1lgp",
+        "img_source": "assets/DEFYN.png"
+    },
+    {
+        "name": "Dark Productions",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DarkProductions&partner_val=wh27akb2",
+        "img_source": "assets/Dark_Productions.png"
+    },
+    {
+        "name": "Discordia_Ch",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Discordia_Ch&partner_val=hxn1b38k",
+        "img_source": "assets/Discordia_Ch.png"
+    },
+    {
+        "name": "Meumeu",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Meumeu03&partner_val=w7cyuzdj",
+        "img_source": "assets/Meumeu.png"
+    },
+    {
         "name": "NitroxTV_",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=NitroxTV_&partner_val=q29pczy6",
         "img_source": "assets/NitroxTV_.png"
     },
     {
-        "name": "DEFYN",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DEFYN&partner_val=c56e1lgp",
-        "img_source": "assets/DEFYN.png"
+        "name": "KingSammelot",
+        "url": "https://warthunder.com/en/play4free?r=youblog_kingsammelot",
+        "img_source": "assets/KingSammelot.png"
+    },
+    {
+        "name": "BPA_Jon",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=BPA_Jon&partner_val=n6ylk6r4",
+        "img_source": "assets/BPA_Jon.png"
     },
     {
         "name": "Store Packs",
