@@ -8,3 +8,5 @@ package-lock.json
 firefox_builds/artifacts/
 chrome_builds/builds
 .idea
+chrome_builds/chrome_builds.zip
+firefox_builds/ffbuild.zip

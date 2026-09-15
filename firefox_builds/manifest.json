@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gaijin Content Creators Popup",
-  "version": "2.0.1",
+  "version": "2.0.1.1",
   "description": "Adds a Content Creators Popup to the Gaijin Store page",
   "action": {
     "default_icon": {
@@ -29,7 +29,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{28dabef6-97de-4d22-bd27-f856d8f13db4}",
-      "strict_min_version": "109.0"
+      "strict_min_version": "143.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
