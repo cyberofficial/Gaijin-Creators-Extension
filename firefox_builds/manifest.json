@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gaijin Content Creators Popup",
-  "version": "1.0.443",
+  "version": "2.0.1",
   "description": "Adds a Content Creators Popup to the Gaijin Store page",
   "action": {
     "default_icon": {
@@ -15,6 +15,12 @@
       "matches": ["https://store.gaijin.net/*"],
       "js": ["creators.js", "content_script.js"],
       "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*.png"],
+      "matches": ["https://store.gaijin.net/*"]
     }
   ],
   "content_security_policy": {
