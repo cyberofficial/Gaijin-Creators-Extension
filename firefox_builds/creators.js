@@ -575,12 +575,6 @@ const creators = [
         "img_source": "assets/TheEuropeanCanadian.png"
     },
     {
-        "name": "Gaijin (Nigel)",
-        "url": "https://store.gaijin.net/activate.php",
-        "img_source": "assets/Gaijin_(Nigel).png",
-        "code": "NIGELWASHERE"
-    },
-    {
         "name": "DonutWithMustache",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DonutWithMustache&partner_val=2tskbzkj",
         "img_source": "assets/DonutWithMustache.png"
@@ -626,15 +620,9 @@ const creators = [
         "img_source": "assets/RADAL.png"
     },
     {
-        "name": "Gaijin (Student pilot)",
-        "url": "https://store.gaijin.net/activate.php",
-        "img_source": "assets/Gaijin_(Student_pilot).png",
-        "code": "STUDENTPILOT"
-    },
-    {
-        "name": "ThunderWar",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=ThunderWar&partner_val=pzh11ktb",
-        "img_source": "assets/ThunderWar.png"
+        "name": "BPA_Jon",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=BPA_Jon&partner_val=n6ylk6r4",
+        "img_source": "assets/BPA_Jon.png"
     },
     {
         "name": "JudeLow",
@@ -642,34 +630,9 @@ const creators = [
         "img_source": "assets/JudeLow.png"
     },
     {
-        "name": "NightngaleTV",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=NightngaleTV&partner_val=b9y2jwfg",
-        "img_source": "assets/NightngaleTV.png"
-    },
-    {
-        "name": "DEFYN",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DEFYN&partner_val=c56e1lgp",
-        "img_source": "assets/DEFYN.png"
-    },
-    {
         "name": "Dark Productions",
         "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DarkProductions&partner_val=wh27akb2",
         "img_source": "assets/Dark_Productions.png"
-    },
-    {
-        "name": "Discordia_Ch",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Discordia_Ch&partner_val=hxn1b38k",
-        "img_source": "assets/Discordia_Ch.png"
-    },
-    {
-        "name": "Meumeu",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Meumeu03&partner_val=w7cyuzdj",
-        "img_source": "assets/Meumeu.png"
-    },
-    {
-        "name": "NitroxTV_",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=NitroxTV_&partner_val=q29pczy6",
-        "img_source": "assets/NitroxTV_.png"
     },
     {
         "name": "KingSammelot",
@@ -677,9 +640,45 @@ const creators = [
         "img_source": "assets/KingSammelot.png"
     },
     {
-        "name": "BPA_Jon",
-        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=BPA_Jon&partner_val=n6ylk6r4",
-        "img_source": "assets/BPA_Jon.png"
+        "name": "NitroxTV_",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=NitroxTV_&partner_val=q29pczy6",
+        "img_source": "assets/NitroxTV_.png"
+    },
+    {
+        "name": "MuffinJuice",
+        "url": "https://warthunder.com/en/play4free?r=youblog_muffinjuice#/",
+        "img_source": "assets/MuffinJuice.png"
+    },
+    {
+        "name": "Meumeu",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Meumeu03&partner_val=w7cyuzdj",
+        "img_source": "assets/Meumeu.png"
+    },
+    {
+        "name": "Discordia_Ch",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=Discordia_Ch&partner_val=hxn1b38k",
+        "img_source": "assets/Discordia_Ch.png"
+    },
+    {
+        "name": "DEFYN",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=DEFYN&partner_val=c56e1lgp",
+        "img_source": "assets/DEFYN.png"
+    },
+    {
+        "name": "NightngaleTV",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=NightngaleTV&partner_val=b9y2jwfg",
+        "img_source": "assets/NightngaleTV.png"
+    },
+    {
+        "name": "ThunderWar",
+        "url": "https://store.gaijin.net/catalog.php?category=WarThunder&partner=ThunderWar&partner_val=pzh11ktb",
+        "img_source": "assets/ThunderWar.png"
+    },
+    {
+        "name": "Gaijin (Student pilot)",
+        "url": "https://store.gaijin.net/activate.php",
+        "img_source": "assets/Gaijin_(Student_pilot).png",
+        "code": "STUDENTPILOT"
     },
     {
         "name": "Store Packs",
@@ -792,13 +791,13 @@ const creators = [
         "img_source": "assets/Senrai_Maidens_-_Emily.png"
     },
     {
-        "name": "Senrai Maidens - \"Ling\"",
-        "url": "https://warthunder.com/zh/senraimaidens?r=youtube#/",
-        "img_source": "assets/Senrai_Maidens_-_Ling.png"
-    },
-    {
         "name": "Senrai Maidens - \"Usagi\"",
         "url": "https://warthunder.com/jp/senraimaidens?r=youtube",
         "img_source": "assets/Senrai_Maidens_-_Usagi.png"
+    },
+    {
+        "name": "Senrai Maidens - \"Ling\"",
+        "url": "https://warthunder.com/zh/senraimaidens?r=youtube#/",
+        "img_source": "assets/Senrai_Maidens_-_Ling.png"
     }
 ];
